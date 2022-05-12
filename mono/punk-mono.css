@@ -1,0 +1,630 @@
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-thin.ttf') format('truetype'), url('woff2/punk-mono-thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedthin.ttf') format('truetype'), url('woff2/punk-mono-extendedthin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-thinoblique.ttf') format('truetype'), url('woff2/punk-mono-thinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-thinoblique.ttf') format('truetype'), url('woff2/punk-mono-thinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedthinoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedthinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedthinoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedthinoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-thinitalic.ttf') format('truetype'), url('woff2/punk-mono-thinitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedthinitalic.ttf') format('truetype'), url('woff2/punk-mono-extendedthinitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-extralight.ttf') format('truetype'), url('woff2/punk-mono-extralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedextralight.ttf') format('truetype'), url('woff2/punk-mono-extendedextralight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extralightoblique.ttf') format('truetype'), url('woff2/punk-mono-extralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-extralightoblique.ttf') format('truetype'), url('woff2/punk-mono-extralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedextralightoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedextralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedextralightoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedextralightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-extralightitalic.ttf') format('truetype'), url('woff2/punk-mono-extralightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedextralightitalic.ttf') format('truetype'), url('woff2/punk-mono-extendedextralightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-light.ttf') format('truetype'), url('woff2/punk-mono-light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedlight.ttf') format('truetype'), url('woff2/punk-mono-extendedlight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-lightoblique.ttf') format('truetype'), url('woff2/punk-mono-lightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-lightoblique.ttf') format('truetype'), url('woff2/punk-mono-lightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedlightoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedlightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedlightoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedlightoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-lightitalic.ttf') format('truetype'), url('woff2/punk-mono-lightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedlightitalic.ttf') format('truetype'), url('woff2/punk-mono-extendedlightitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-regular.ttf') format('truetype'), url('woff2/punk-mono-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extended.ttf') format('truetype'), url('woff2/punk-mono-extended.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-oblique.ttf') format('truetype'), url('woff2/punk-mono-oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-oblique.ttf') format('truetype'), url('woff2/punk-mono-oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-italic.ttf') format('truetype'), url('woff2/punk-mono-italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendeditalic.ttf') format('truetype'), url('woff2/punk-mono-extendeditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-medium.ttf') format('truetype'), url('woff2/punk-mono-medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedmedium.ttf') format('truetype'), url('woff2/punk-mono-extendedmedium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-mediumoblique.ttf') format('truetype'), url('woff2/punk-mono-mediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-mediumoblique.ttf') format('truetype'), url('woff2/punk-mono-mediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedmediumoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedmediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedmediumoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedmediumoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-mediumitalic.ttf') format('truetype'), url('woff2/punk-mono-mediumitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedmediumitalic.ttf') format('truetype'), url('woff2/punk-mono-extendedmediumitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-semibold.ttf') format('truetype'), url('woff2/punk-mono-semibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedsemibold.ttf') format('truetype'), url('woff2/punk-mono-extendedsemibold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-semiboldoblique.ttf') format('truetype'), url('woff2/punk-mono-semiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-semiboldoblique.ttf') format('truetype'), url('woff2/punk-mono-semiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedsemiboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedsemiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedsemiboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedsemiboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-semibolditalic.ttf') format('truetype'), url('woff2/punk-mono-semibolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedsemibolditalic.ttf') format('truetype'), url('woff2/punk-mono-extendedsemibolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-bold.ttf') format('truetype'), url('woff2/punk-mono-bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedbold.ttf') format('truetype'), url('woff2/punk-mono-extendedbold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-boldoblique.ttf') format('truetype'), url('woff2/punk-mono-boldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-boldoblique.ttf') format('truetype'), url('woff2/punk-mono-boldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-bolditalic.ttf') format('truetype'), url('woff2/punk-mono-bolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedbolditalic.ttf') format('truetype'), url('woff2/punk-mono-extendedbolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-extrabold.ttf') format('truetype'), url('woff2/punk-mono-extrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedextrabold.ttf') format('truetype'), url('woff2/punk-mono-extendedextrabold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extraboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-extraboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedextraboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedextraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedextraboldoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedextraboldoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-extrabolditalic.ttf') format('truetype'), url('woff2/punk-mono-extrabolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedextrabolditalic.ttf') format('truetype'), url('woff2/punk-mono-extendedextrabolditalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('ttf/punk-mono-heavy.ttf') format('truetype'), url('woff2/punk-mono-heavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('ttf/punk-mono-extendedheavy.ttf') format('truetype'), url('woff2/punk-mono-extendedheavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('ttf/punk-mono-heavyoblique.ttf') format('truetype'), url('woff2/punk-mono-heavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('ttf/punk-mono-heavyoblique.ttf') format('truetype'), url('woff2/punk-mono-heavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('ttf/punk-mono-extendedheavyoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedheavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url('ttf/punk-mono-extendedheavyoblique.ttf') format('truetype'), url('woff2/punk-mono-extendedheavyoblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('ttf/punk-mono-heavyitalic.ttf') format('truetype'), url('woff2/punk-mono-heavyitalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Punk Mono Web';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('ttf/punk-mono-extendedheavyitalic.ttf') format('truetype'), url('woff2/punk-mono-extendedheavyitalic.woff2') format('woff2');
+}
