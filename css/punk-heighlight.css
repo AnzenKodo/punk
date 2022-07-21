@@ -37,7 +37,7 @@ pre::-webkit-scrollbar-thumb {
 
 pre {
   color: var(--punk-fg-color);
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 code:not([class*="language-"]) {
   font-family: "Punk Mono", monospace;
@@ -53,7 +53,7 @@ pre code.hljs {
   font-family: "Punk Mono", monospace;
   display: block;
   overflow-x: auto;
-  padding: 1em;
+  padding: .5em;
 }
 code.hljs {
   padding: 3px 5px;
