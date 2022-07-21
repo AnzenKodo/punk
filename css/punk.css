@@ -37,8 +37,9 @@ body {
   font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "PT Sans", "Open Sans", "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-variant-ligatures: normal;
   font-size:100%;
-  line-height: 1.4;
+  line-height: 1.5em;
   margin: 1em;
+  word-spacing: .2em;
 }
 
 body header,
@@ -50,7 +51,7 @@ body article{
 }
 
 body > header{
-  margin-bottom:3em;
+  margin-bottom: 2em;
 }
 body > header p{
   margin:0;
@@ -74,10 +75,15 @@ nav li:last-child, nav li:first-child {
   margin-right:0;
 }
 
+body > footer p {
+  text-align: center;
+  font-size: .9em;
+}
+
 /* Head style */
 
 h1, h2, h3, h4, h5, h6{
-  margin:1.25em 0 0;
+  margin: 1em 0 0;
   line-height:1.2;
 }
 
