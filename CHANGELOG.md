@@ -1,3 +1,9 @@
+## v0.2
+
+### Feat
+
+- added 2 css highlight.js css files
+
 ## v0.1
 
 ### Fix
