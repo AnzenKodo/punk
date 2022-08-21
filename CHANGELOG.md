@@ -1,5 +1,8 @@
+## v0.4
+- Fix `th` tag border style
+
 ## v0.3
-- Fix img tag width
+- Fix `img` tag width
 
 ## v0.2
 
