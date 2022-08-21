@@ -1,4 +1,7 @@
 ## v0.4
+- Fix `th` tag spacing problem
+
+## v0.4
 - Fix `th` tag border style
 
 ## v0.3
