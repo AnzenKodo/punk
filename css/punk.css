@@ -19,7 +19,7 @@
   background: #0583f2;
 }
 ::-webkit-scrollbar {
-  border: 1px solid var(--fg);
+  border: var(--border);
   width: 1rem;
 }
 ::-webkit-scrollar-track {
@@ -244,6 +244,7 @@ table td {
   padding: 0.3em;
 }
 table th {
+  border: double var(--bg);
   font-weight: bold;
   background: var(--fg);
   color: var(--bg);
