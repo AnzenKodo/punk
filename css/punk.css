@@ -227,6 +227,10 @@ summary {
   cursor:pointer;
 }
 
+summary:focus {
+  background: var(--theme);
+}
+
 /* Table tags */
 
 table {
@@ -253,11 +257,6 @@ table th {
   text-align: center;
 }
 
-/* Code block */
-
-/*img {*/
-/*	max-width: 100%;*/
-/*}*/
 
 /* Demarcating edits */
 
@@ -394,9 +393,10 @@ kbd {
   padding: .1em .3em;
 }
 
-code {
+p code {
   border: var(--border);
   padding: .01em .3em;
+  overflow-x: scroll;
 }
 
 pre{
