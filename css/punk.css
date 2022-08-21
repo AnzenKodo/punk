@@ -237,12 +237,13 @@ table {
 
 table caption{
   font-size:.9em;
+  margin-bottom: .8em;
 }
 
 table th,
 table td {
   border: var(--border);
-  padding: 0.3em;
+  padding: 0.35em 0.75em;
 }
 table th {
   border: double var(--bg);
