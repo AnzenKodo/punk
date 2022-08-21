@@ -156,9 +156,7 @@ p + ul, p + ol{
 }
 
 p img, p picture{
-  float:right;
-  margin-bottom:0.5em;
-  margin-left:0.5em;
+  max-width: 100%;
 }
 p picture img{
   float:none;
