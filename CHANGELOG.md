@@ -1,3 +1,6 @@
+## v0.3
+- Fix img tag width
+
 ## v0.2
 
 ### Feat
