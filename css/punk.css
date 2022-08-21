@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 :root {
+  color-scheme: light;
   --background: #FEFBFE;
   --foreground: #000000;
   --bg: var(--background);
@@ -413,5 +414,6 @@ pre > code {
   :root {
     --bg: var(--foreground);
     --fg: var(--background);
+      color-scheme: light;
   }
 }
