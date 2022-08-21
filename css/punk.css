@@ -233,11 +233,11 @@ table {
   border-collapse: collapse;
   overflow-x:auto;
   max-width:100%;
+  margin-bottom: .8em;
 }
 
 table caption{
   font-size:.9em;
-  margin-bottom: .8em;
 }
 
 table th,
