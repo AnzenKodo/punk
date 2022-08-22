@@ -212,7 +212,6 @@ dt{
 details {
   margin:1em 0;
   padding: .5em;
-  border: var(--border);
 }
 details[open] {
   padding-bottom:0.5em;
