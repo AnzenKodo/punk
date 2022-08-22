@@ -1,4 +1,13 @@
-## v0.4
+## v0.7
+- Remove `border` from `details` tag.
+
+## v0.6
+- `summary` tag now shows theme color on focus.
+
+## v0.5.1
+- Fix `th` tag spacing problem, which didn't happen on v0.5
+
+## v0.5
 - Fix `th` tag spacing problem
 
 ## v0.4
