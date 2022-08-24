@@ -1,4 +1,7 @@
 ## v0.7
+- Fix `color-scheme`
+
+## v0.7
 - Remove `border` from `details` tag.
 
 ## v0.6
