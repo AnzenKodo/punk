@@ -180,13 +180,6 @@ a:focus {
   color: var(--bg);
 }
 
-a[href^="mailto"]::before {
-  content: "📧 ";
-}
-a[href^="tel"]::before {
-  content: "📞 ";
-}
-
 /* List Style */
 
 ul, ol{
