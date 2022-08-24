@@ -414,6 +414,6 @@ pre > code {
   :root {
     --bg: var(--foreground);
     --fg: var(--background);
-      color-scheme: light;
+      color-scheme: dark;
   }
 }
