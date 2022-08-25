@@ -11,7 +11,7 @@
 }
 
 :target {
-  border: var(--theme);
+  border: var(--border);
   border-style: dashed;
 }
 
