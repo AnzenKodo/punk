@@ -181,6 +181,10 @@ a {
 
 a:hover,
 a:focus {
+  text-decoration: none;
+}
+
+a:active {
   background: var(--theme);
   color: var(--bg);
 }
