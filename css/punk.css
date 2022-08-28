@@ -10,13 +10,9 @@
   --border: 1px solid var(--fg);
 }
 
-:target {
-  border: var(--border);
-  border-style: dashed;
-}
-
 *:focus {
   outline: var(--border);
+  outline-style: dashed;
   outline-offset: 2px;
 }
 
