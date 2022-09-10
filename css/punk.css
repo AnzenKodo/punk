@@ -152,7 +152,6 @@ h6 + details{
 p {
   margin:1em 0;
   overflow-wrap: break-word;
-  hyphens: auto;
 }
 
 p + ul, p + ol{
