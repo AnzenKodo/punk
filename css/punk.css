@@ -149,8 +149,10 @@ h6 + details{
 
 /* Paragraph style */
 
-p{
+p {
   margin:1em 0;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 p + ul, p + ol{
