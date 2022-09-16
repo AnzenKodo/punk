@@ -1,13 +1,3 @@
-Copyright 2015-2021, Renzhi Li (aka. Belleve Invis, belleve@typeof.net)
-
-This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
-This license is copied below, and is also available with a FAQ at:
-http://scripts.sil.org/OFL
-
---------------------------
-
-
 SIL Open Font License v1.1
 ====================================================
 
