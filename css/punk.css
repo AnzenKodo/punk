@@ -410,11 +410,12 @@ p code {
   overflow-x: scroll;
 }
 
-pre{
+pre {
   overflow-x:auto;
-  font-size:0.8em;
+  font-size: 1em;
   border: var(--border);
   padding: .5em;
+  line-height: 1.5em;
 }
 
 pre > code {
