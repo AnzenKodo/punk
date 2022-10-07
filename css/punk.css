@@ -373,6 +373,11 @@ input[type=checkbox], input[type=radio]{
   vertical-align:middle;
 }
 
+ul:has(li input[type="checkbox"]) {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
 select {
   font-size: 1em;
   border: var(--border);
