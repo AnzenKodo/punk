@@ -263,8 +263,6 @@ table td {
 table th {
   border: double var(--bg);
   font-weight: bold;
-  background: var(--fg);
-  color: var(--bg);
   text-align: center;
 }
 
