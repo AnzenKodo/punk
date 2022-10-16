@@ -261,7 +261,7 @@ table td {
   padding: 0.35em 0.75em;
 }
 table th {
-  border: double var(--bg);
+  border: double var(--fg);
   font-weight: bold;
   text-align: center;
 }
