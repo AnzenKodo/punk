@@ -164,16 +164,14 @@ p + ul, p + ol{
   margin-top:-0.75em;
 }
 
-p img, p picture{
+main p, p img, p picture, figure img{
   max-width: 100%;
 }
 p picture img{
   float:none;
   margin:0;
 }
-figure img {
-  max-width: 100%;
-}
+
 figcaption {
   text-align: center;
   font-style: italic;
