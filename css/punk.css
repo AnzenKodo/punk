@@ -164,7 +164,7 @@ p + ul, p + ol{
   margin-top:-0.75em;
 }
 
-main p, p img, p picture, figure img{
+img, picture {
   max-width: 100%;
 }
 p picture img{
